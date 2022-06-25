@@ -7,7 +7,7 @@
 }
 
 .container {
-    padding-top: 40px;
+  padding-top: 40px;
   width: 1520px;
   /* padding: 40px; */
   display: flex;
@@ -151,9 +151,12 @@
   flex-direction: column;
   gap: 10px;
   position: absolute;
-  left: 86%;
-  top: 3%;
+  right: 6%;
+  top: 4%;
   display: flex;
+  opacity: 0;
+  transition: all 0.5s;
+  width: 34px;
 }
 
 .seller--item .icon {
@@ -161,8 +164,8 @@
   justify-content: center;
   align-items: center;
   font-size: 10px;
-  height: 20px;
-  width: 20px;
+  height: 30px;
+  width: 30px;
   background-color: #62c592;
   color: white;
   cursor: pointer;
@@ -170,6 +173,10 @@
 
 .seller--item:hover > img {
   transform: scale(1.03);
+}
+
+.seller--item:hover > .all-icon {
+  opacity: 1;
 }
 
 .icon-name {
@@ -260,76 +267,76 @@
   cursor: pointer;
 }
 
-.feature--sell p:nth-child(2){
-    color: #333333;
-    font-size: 14px;
-    font-weight: 600;
+.feature--sell p:nth-child(2) {
+  color: #333333;
+  font-size: 14px;
+  font-weight: 600;
 }
 
-.feature--sell p:nth-child(3){
-    color: #63c693;
-    font-size: 18px;
-    font-weight: 700;
+.feature--sell p:nth-child(3) {
+  color: #63c693;
+  font-size: 18px;
+  font-weight: 700;
 }
 
-.footer{
-    display: flex;
-    width: 1520px;
-    margin-top: 80px;
+.footer {
+  display: flex;
+  width: 1520px;
+  margin-top: 80px;
 }
 
-.footer--left{
-    width: 50%;
-    position: relative;
-    display: flex;
-    justify-content: center;
+.footer--left {
+  width: 50%;
+  position: relative;
+  display: flex;
+  justify-content: center;
 }
 
-.left--information{
-    position: absolute;
-    width: 80%;
-    top: 20%;
-    display: flex;
-    gap: 20px;
-    align-items: center;
-    flex-direction: column;
+.left--information {
+  position: absolute;
+  width: 80%;
+  top: 20%;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  flex-direction: column;
 }
 
-.left--information h1{
-    color: white;
+.left--information h1 {
+  color: white;
 }
 
-.footer--left img{
-    width: 100%;
+.footer--left img {
+  width: 100%;
 }
 
-.footer--right{
-    width: 50%;
+.footer--right {
+  width: 50%;
 }
 
-.footer--right img{
-    width: 100%;
+.footer--right img {
+  width: 100%;
 }
 
-.code-sale{
-    height: 40px;
-    width: 100%;
+.code-sale {
+  height: 40px;
+  width: 100%;
 }
 
-.code-sale input{
-    border: none;
-    outline: none;
-    padding-left: 12px;
-    height: 100%;
-    width: 68%;
+.code-sale input {
+  border: none;
+  outline: none;
+  padding-left: 12px;
+  height: 100%;
+  width: 68%;
 }
 
-.code-sale button{
-    height: 100%;
-    width: 28%;
-    cursor: pointer;
-    border: none;
-    outline: none;
-    background-color: #3cb878;
-    color: white;
+.code-sale button {
+  height: 100%;
+  width: 28%;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background-color: #3cb878;
+  color: white;
 }
