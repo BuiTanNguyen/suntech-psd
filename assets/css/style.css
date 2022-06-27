@@ -279,7 +279,7 @@
   font-weight: 700;
 }
 
-.footer {
+.footer--up {
   display: flex;
   width: 1520px;
   margin-top: 80px;
@@ -340,3 +340,22 @@
   background-color: #3cb878;
   color: white;
 }
+
+.author-paycard{
+  display: flex;
+  background-color: #000000;
+  color: #6c6c6c;
+  align-items: center;
+  justify-content: space-around;
+  height: 50px;
+}
+
+.author p{
+  font-size: 14px;
+}
+
+.paycard{
+   display: flex;
+   gap: 20px;
+}
+
