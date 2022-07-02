@@ -1,0 +1,194 @@
+
+@media only screen and (min-width: 64em)
+{
+    .container-fluid {
+    --bs-gutter-x:0;
+  }
+}
+
+/* Tablet: width >= 740px and width < 1024px */
+@media only screen and (max-width: 63.9375em) and (min-width: 46.25em) {
+
+    /* Body service */
+    .icon-name {
+      width: 100%;
+      margin-top: 40px;
+      display: flex;
+      justify-content: space-between;
+      gap: 2px;
+      height: 152px;
+    }
+  
+    .bg {
+      height: 100%;
+      gap: 5px;
+    }
+  
+    .bg i {
+      font-size: 28px;
+    }
+  
+    .paragrap p:first-child {
+      font-size: 12px;
+    }
+  
+    .paragrap {
+      gap: 2px;
+    }
+  
+    /*body sale off*/
+    .seller {
+      display: flex;
+      position: relative;
+      gap: 10px;
+    }
+  
+    #the-title-of-sale-off {
+      display: block;
+      position: relative;
+      top: 45px;
+    }
+  
+    .seller--item {
+      flex: 1;
+      gap: 0;
+    }
+  
+    .seller--title {
+      display: none;
+    }
+  
+    .seller--item p:nth-child(3) {
+      font-size: 15px;
+    }
+  
+    /*Feature product*/
+    .feature {
+      gap: 10px;
+      margin-top: 14px;
+    }
+  
+    .feature--shop {
+      row-gap: 0;
+    }
+  
+    .feature--sell {
+      gap: 0;
+      align-items: center;
+    }
+  
+    .feature--sell p:nth-child(2) {
+      margin-bottom: 0;
+      font-size: 10px;
+    }
+  
+    .feature--sell p:nth-child(3) {
+      font-size: 14px;
+    }
+  
+    /*footer*/
+    .left--information {
+      gap: 1px;
+    }
+  
+    .left--information h1 {
+      font-size: 24px;
+    }
+  
+    .code-sale {
+      height: 24px;
+    }
+  
+    .code-sale button {
+      font-size: 10px;
+    }
+  }
+  
+  /* Mobile: width < 740px */
+  @media only screen and (max-width: 46.1875em) {
+  
+    /* Product */
+    .icon-name {
+      width: 100%;
+      margin-top: 12px;
+      display: flex;
+      justify-content: space-between;
+      gap: 2px;
+      height: 100px;
+    }
+  
+    .bg {
+      height: 100%;
+      width: 100%;
+      gap: 3px;
+    }
+  
+    .bg i {
+      font-size: 24px;
+    }
+  
+    .paragrap p:first-child {
+      font-size: 10px;
+    }
+  
+    .paragrap p:nth-child(2) {
+      font-size: 10px;
+    }
+  
+    /*body sale off*/
+    .seller {
+      display: flex;
+      gap: 10px;
+      margin-top: 25px;
+    }
+  
+    .seller--item {
+      flex: 1;
+      gap: 0;
+    }
+  
+    #the-title-of-sale-off {
+      display: block;
+      position: relative;
+      top: 30px;
+      font-size: 4vw;
+    }
+  
+    .seller--title {
+      display: none;
+    }
+  
+    .seller--item p:nth-child(3) {
+      font-size: 9px;
+      margin-bottom: 0px;
+    }
+  
+    .seller--item p {
+      font-size: 13px;
+    }
+  
+    /*feature product*/
+    .feature {
+      gap: 0px;
+      margin-top: 14px;
+    }
+  
+    .feature--shop {
+      row-gap: 0;
+    }
+  
+    .feature--sell {
+      gap: 0;
+      align-items: center;
+      width: 32%;
+    }
+  
+    .feature--sell p:nth-child(2) {
+      margin-bottom: 0;
+      font-size: 15px;
+    }
+  
+    .feature--sell p:nth-child(3) {
+      font-size: 15px;
+    }
+  }
