@@ -1,194 +1,326 @@
-
-@media only screen and (min-width: 64em)
-{
-    .container-fluid {
-    --bs-gutter-x:0;
+@media only screen and (min-width: 64em) {
+  .container-fluid {
+    --bs-gutter-x: 0;
   }
+
+
 }
 
 /* Tablet: width >= 740px and width < 1024px */
 @media only screen and (max-width: 63.9375em) and (min-width: 46.25em) {
 
-    /* Body service */
-    .icon-name {
-      width: 100%;
-      margin-top: 40px;
-      display: flex;
-      justify-content: space-between;
-      gap: 2px;
-      height: 152px;
-    }
-  
-    .bg {
-      height: 100%;
-      gap: 5px;
-    }
-  
-    .bg i {
-      font-size: 28px;
-    }
-  
-    .paragrap p:first-child {
-      font-size: 12px;
-    }
-  
-    .paragrap {
-      gap: 2px;
-    }
-  
-    /*body sale off*/
-    .seller {
-      display: flex;
-      position: relative;
-      gap: 10px;
-    }
-  
-    #the-title-of-sale-off {
-      display: block;
-      position: relative;
-      top: 45px;
-    }
-  
-    .seller--item {
-      flex: 1;
-      gap: 0;
-    }
-  
-    .seller--title {
-      display: none;
-    }
-  
-    .seller--item p:nth-child(3) {
-      font-size: 15px;
-    }
-  
-    /*Feature product*/
-    .feature {
-      gap: 10px;
-      margin-top: 14px;
-    }
-  
-    .feature--shop {
-      row-gap: 0;
-    }
-  
-    .feature--sell {
-      gap: 0;
-      align-items: center;
-    }
-  
-    .feature--sell p:nth-child(2) {
-      margin-bottom: 0;
-      font-size: 10px;
-    }
-  
-    .feature--sell p:nth-child(3) {
-      font-size: 14px;
-    }
-  
-    /*footer*/
-    .left--information {
-      gap: 1px;
-    }
-  
-    .left--information h1 {
-      font-size: 24px;
-    }
-  
-    .code-sale {
-      height: 24px;
-    }
-  
-    .code-sale button {
-      font-size: 10px;
-    }
+  /* Body service */
+  .icon-name {
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    gap: 2px;
+    height: 152px;
   }
-  
-  /* Mobile: width < 740px */
-  @media only screen and (max-width: 46.1875em) {
-  
-    /* Product */
-    .icon-name {
-      width: 100%;
-      margin-top: 12px;
-      display: flex;
-      justify-content: space-between;
-      gap: 2px;
-      height: 100px;
-    }
-  
-    .bg {
-      height: 100%;
-      width: 100%;
-      gap: 3px;
-    }
-  
-    .bg i {
-      font-size: 24px;
-    }
-  
-    .paragrap p:first-child {
-      font-size: 10px;
-    }
-  
-    .paragrap p:nth-child(2) {
-      font-size: 10px;
-    }
-  
-    /*body sale off*/
-    .seller {
-      display: flex;
-      gap: 10px;
-      margin-top: 25px;
-    }
-  
-    .seller--item {
-      flex: 1;
-      gap: 0;
-    }
-  
-    #the-title-of-sale-off {
-      display: block;
-      position: relative;
-      top: 30px;
-      font-size: 4vw;
-    }
-  
-    .seller--title {
-      display: none;
-    }
-  
-    .seller--item p:nth-child(3) {
-      font-size: 9px;
-      margin-bottom: 0px;
-    }
-  
-    .seller--item p {
-      font-size: 13px;
-    }
-  
-    /*feature product*/
-    .feature {
-      gap: 0px;
-      margin-top: 14px;
-    }
-  
-    .feature--shop {
-      row-gap: 0;
-    }
-  
-    .feature--sell {
-      gap: 0;
-      align-items: center;
-      width: 32%;
-    }
-  
-    .feature--sell p:nth-child(2) {
-      margin-bottom: 0;
-      font-size: 15px;
-    }
-  
-    .feature--sell p:nth-child(3) {
-      font-size: 15px;
-    }
+
+  .bg {
+    height: 100%;
+    gap: 5px;
   }
+
+  .bg i {
+    font-size: 28px;
+  }
+
+  .paragrap p:first-child {
+    font-size: 12px;
+  }
+
+  .paragrap {
+    gap: 2px;
+  }
+
+  /*body sale off*/
+  .seller {
+    display: flex;
+    position: relative;
+    gap: 10px;
+  }
+
+  #the-title-of-sale-off {
+    display: block;
+    position: relative;
+    top: 45px;
+  }
+
+  .seller--item {
+    flex: 1;
+    gap: 0;
+  }
+
+  .seller--title {
+    display: none;
+  }
+
+  .seller--item p:nth-child(3) {
+    font-size: 15px;
+  }
+
+  /*Feature product*/
+  .feature {
+    gap: 10px;
+    margin-top: 14px;
+  }
+
+  .feature--shop {
+    row-gap: 0;
+  }
+
+  .feature--sell {
+    gap: 0;
+    align-items: center;
+  }
+
+  .feature--sell p:nth-child(2) {
+    margin-bottom: 0;
+    font-size: 10px;
+  }
+
+  .feature--sell p:nth-child(3) {
+    font-size: 14px;
+  }
+
+  /*footer*/
+
+
+  .left--information {
+    gap: 1px;
+  }
+
+  .left--information h1 {
+    font-size: 24px;
+  }
+
+  .code-sale {
+    height: 24px;
+  }
+
+  .code-sale button {
+    font-size: 10px;
+  }
+
+  .author-paycard {
+    height: 75px;
+    flex-direction: column;
+  }
+
+  .choose button {
+    font-size: 10px;
+    margin-left: 5px;
+  }
+
+  .header h3 {
+    margin-bottom: 0px;
+    font-size: 17px;
+  }
+
+  .header-mobile {
+    display: none;
+  }
+}
+
+/* Mobile: width < 740px */
+@media only screen and (max-width: 46.1875em) {
+
+  /* Product */
+  .icon-name {
+    width: 100%;
+    margin-top: 12px;
+    display: flex;
+    justify-content: space-between;
+    gap: 2px;
+    height: 65px;
+  }
+
+  .bg {
+    height: 100%;
+    width: 100%;
+    gap: 2px;
+  }
+
+  .bg i {
+    font-size: 16px;
+  }
+
+  .paragrap p:first-child {
+    font-size: 7px;
+    margin-bottom: 0px;
+  }
+
+  .paragrap p:nth-child(2) {
+    font-size: 6px;
+    margin-bottom: 0px;
+  }
+
+  /*body sale off*/
+  .seller {
+    display: flex;
+    gap: 10px;
+    margin-top: 25px;
+  }
+
+  .seller--item {
+    flex: 1;
+    gap: 0;
+  }
+
+  #the-title-of-sale-off {
+    display: block;
+    position: relative;
+    top: 30px;
+    font-size: 4vw;
+  }
+
+  .seller--title {
+    display: none;
+  }
+
+  .seller--item p:nth-child(3) {
+    font-size: 7px;
+    margin-bottom: 0px;
+  }
+
+  .seller--item p {
+    font-size: 11px;
+  }
+
+  /*feature product*/
+  .feature {
+    gap: 0px;
+    margin-top: 14px;
+  }
+
+  .feature--shop {
+    row-gap: 0;
+  }
+
+  .feature--sell {
+    gap: 0;
+    align-items: center;
+    width: 32%;
+  }
+
+  .feature--sell p:nth-child(2) {
+    margin-bottom: 0;
+    font-size: 15px;
+  }
+
+  .feature--sell p:nth-child(3) {
+    font-size: 15px;
+  }
+
+  /*footer*/
+  .footer--up {
+    flex-direction: column;
+  }
+
+  .footer--left {
+    width: 100%;
+  }
+
+  .footer--right {
+    width: 100%;
+  }
+
+  .author-paycard {
+    height: 100px;
+    flex-direction: column;
+  }
+
+  .code-sale {
+    height: 20px;
+  }
+
+  .code-sale button {
+    font-size: 9px;
+  }
+
+  .left--information {
+    top: 6%;
+  }
+
+  .left--information h1 {
+    margin-bottom: 0px;
+    font-size: 20px;
+  }
+
+  .author p {
+    font-size: 15px;
+    text-align: center;
+  }
+
+  .header {
+    display: none;
+  }
+
+  .header-mobile {
+    display: block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+  }
+
+  .header-mobile-element {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .choose-mobile button {
+    background: none;
+    outline: none;
+    border: none;
+    margin-left: 8px;
+    color: #696b6c;
+    font-size: 10px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+
+  .choose-mobile button:first-child {
+    color: #75cc9f;
+  }
+
+  .choose-mobile button:hover {
+    color: #75cc9f;
+  }
+
+  .icon-head-mobile {
+    display: flex;
+    gap: 2px;
+  }
+
+  .icon-head-mobile i {
+    cursor: pointer;
+    font-size: 12px;
+    transition: all 0.2s;
+  }
+
+  .icon-head-mobile i:hover {
+    color: red;
+  }
+
+  .header-mobile h3 {
+    color: #5eb588;
+    font-size: 13px;
+    font-weight: 800;
+    margin-bottom: 0px;
+  }
+
+  .choose-mobile{
+    text-align: center;
+  }
+
+}

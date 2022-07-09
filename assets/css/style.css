@@ -27,6 +27,7 @@
   color: #5eb588;
   font-size: 20px;
   font-weight: 800;
+  margin-bottom: 0px;
 }
 
 .choose button {
@@ -311,7 +312,7 @@
 .left--information {
   position: absolute;
   width: 85%;
-  top: 20%;
+  top: 12%;
   display: flex;
   gap: 11px;
   align-items: center;
@@ -384,4 +385,8 @@
 
 .featured--title h1 {
   font-size: 4vw;
+}
+
+.header-mobile{
+  display: none;
 }
